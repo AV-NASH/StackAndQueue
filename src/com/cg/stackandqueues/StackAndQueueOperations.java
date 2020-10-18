@@ -8,5 +8,12 @@ public class StackAndQueueOperations {
         myStack.push(30);
         myStack.push(56);
         myStack.printStack();
+        System.out.println("----");
+        System.out.println("Element at top of stact is.."+myStack.peek()+"\nAfter pop");
+        myStack.pop();
+        myStack.pop();
+        myStack.pop();
+        myStack.pop();
+        myStack.printStack();
     }
 }
