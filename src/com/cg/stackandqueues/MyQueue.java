@@ -9,6 +9,13 @@ public class MyQueue<E>  {
         myLinkedList.append(data);
     }
 
+    public  void dequeue(){
+        if(myLinkedList.head==null)
+            System.out.println("Queue is empty");
+        else
+            myLinkedList.pop();
+    }
+
     public void printQueue(){
         if(myLinkedList.head==null)
             System.out.println("Stack is empty");

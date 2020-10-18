@@ -20,5 +20,8 @@ public class StackAndQueueOperations {
         myQueue.enqueue(30);
         myQueue.enqueue(70);
         myQueue.printQueue();
+        myQueue.dequeue();
+        System.out.println("After dequeue");
+        myQueue.printQueue();
     }
 }
